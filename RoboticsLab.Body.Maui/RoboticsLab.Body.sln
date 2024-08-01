@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoboticsLab.Body.Maui", "RoboticsLab.Body.Maui\RoboticsLab.Body.Maui.csproj", "{7C9C9FB1-F148-4886-992B-E9BE01ED4B33}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "RoboticLabsDB", "RoboticLabsDB\RoboticLabsDB.sqlproj", "{25C12EEB-F587-4AF1-83D3-0DD43A904B60}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "RoboticsLab.Body.Backend", "RoboticsLab.Body.Backend\RoboticsLab.Body.Backend.pyproj", "{32541E15-8C7F-475F-A0D6-047743AE1D02}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "RoboticsLab.Body.Torso", "RoboticsLab.Body.Torso\RoboticsLab.Body.Torso.pyproj", "{99B601B0-B404-4165-BB5F-9C3FEEAE5A65}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "RoboticsLab.Body.Arms", "RoboticsLab.Body.Arms\RoboticsLab.Body.Arms.pyproj", "{7339C4E9-CF4D-4503-81E4-5DBB3F86527B}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "RoboticsLab.Body.Legs", "RoboticsLab.Body.Legs\RoboticsLab.Body.Legs.pyproj", "{967B9D91-CB97-4521-B8B6-504A8BEF989F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C9C9FB1-F148-4886-992B-E9BE01ED4B33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C9C9FB1-F148-4886-992B-E9BE01ED4B33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C9C9FB1-F148-4886-992B-E9BE01ED4B33}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7C9C9FB1-F148-4886-992B-E9BE01ED4B33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C9C9FB1-F148-4886-992B-E9BE01ED4B33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C9C9FB1-F148-4886-992B-E9BE01ED4B33}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{25C12EEB-F587-4AF1-83D3-0DD43A904B60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25C12EEB-F587-4AF1-83D3-0DD43A904B60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25C12EEB-F587-4AF1-83D3-0DD43A904B60}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{25C12EEB-F587-4AF1-83D3-0DD43A904B60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25C12EEB-F587-4AF1-83D3-0DD43A904B60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25C12EEB-F587-4AF1-83D3-0DD43A904B60}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{32541E15-8C7F-475F-A0D6-047743AE1D02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32541E15-8C7F-475F-A0D6-047743AE1D02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99B601B0-B404-4165-BB5F-9C3FEEAE5A65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99B601B0-B404-4165-BB5F-9C3FEEAE5A65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7339C4E9-CF4D-4503-81E4-5DBB3F86527B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7339C4E9-CF4D-4503-81E4-5DBB3F86527B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{967B9D91-CB97-4521-B8B6-504A8BEF989F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{967B9D91-CB97-4521-B8B6-504A8BEF989F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {782C4BD7-8FBC-4E5E-9C78-4CD5CC092B5C}
+	EndGlobalSection
+EndGlobal
