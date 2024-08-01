@@ -1,6 +1,7 @@
 def Initialize():
-    print("Initializing arms.")
-def Move():
-    print("Arms are moving!")
-def arms.move(UP)
+    print ("Intializing the arms")
+
+def MoveArm():
+    print("Moving Arms")
+
 
