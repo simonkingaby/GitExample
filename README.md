@@ -10,4 +10,5 @@ We are a small-to-medium-sized Robotics Startup. Our hardware developers have pa
 
 The Robot Control Application (RCA) is a multi-platform application that will run on iOS devices, Android devices, and Windows devices. It comprises the following modules:
 
-1) 
+1) Each team needs to write an Initialize() function that prints "My body part is initialized"
+2) And the function for your action. Torso - Bow()  Arms - WiggleFingers()  Legs - HighKick()
