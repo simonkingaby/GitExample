@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RoboticsLab.Body.Maui")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+9a35161e9ec992251385461801d37c7860ca10e6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+465069410520b77ec739651d18297e428e11660c")]
 [assembly: System.Reflection.AssemblyProductAttribute("RoboticsLab.Body.Maui")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RoboticsLab.Body.Maui")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

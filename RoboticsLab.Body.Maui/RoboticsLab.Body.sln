@@ -15,6 +15,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "RoboticsLab.Body.Arms", "Ro
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "RoboticsLab.Body.Legs", "RoboticsLab.Body.Legs\RoboticsLab.Body.Legs.pyproj", "{967B9D91-CB97-4521-B8B6-504A8BEF989F}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "RoboticsLab.Head.LeftBrain", "RoboticsLab.Head.LeftBrain\RoboticsLab.Head.LeftBrain.pyproj", "{59E17FA8-F5A0-461D-A797-DBC4D3D32453}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,8 @@ Global
 		{7339C4E9-CF4D-4503-81E4-5DBB3F86527B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{967B9D91-CB97-4521-B8B6-504A8BEF989F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{967B9D91-CB97-4521-B8B6-504A8BEF989F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59E17FA8-F5A0-461D-A797-DBC4D3D32453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59E17FA8-F5A0-461D-A797-DBC4D3D32453}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
