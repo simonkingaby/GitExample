@@ -2,7 +2,6 @@
 __pycache__/
 *.py[cod]
 *$py.class
-.vs/
 
 # C extensions
 *.so
@@ -161,3 +160,196 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+# Visual Studio Code
+.vscode/
+.vscode/*
+.vs/*
+**/.vs/*
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+*.sln.ide
+
+# Build directories
+bin/
+obj/
+out/
+
+# MAUI specific directories
+platforms/**/bin/
+platforms/**/obj/
+
+# NuGet packages
+*.nupkg
+**/packages
+# Uncomment if necessary
+# packages/*
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+# OSX
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Linux
+*~
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+# KDE directory preferences
+.directory
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# Mobile Specific
+**/Resources/Resource.designer.cs
+**/Resources/Resource*.designer.cs
+**/Resources/Resource*.designer.vb
+**/Resources/Resource*.designer.fs
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+*.cs.iml
+
+# Rider settings
+.idea/.idea/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/dictionaries
+.idea/libraries
+.idea/modules.xml
+.idea/misc.xml
+.idea/modules
+.idea/vcs.xml
+.idea/dictionaries
+.idea/shelf
+.idea/jarRepositories.xml
+.idea/codeStyles
+.idea/runConfigurations
+.idea/uiDesigner.xml
+.idea/gradle.xml
+.idea/.name
+.idea/httpRequests
+.idea/jsLinters
+.idea/jsLibraryMappings
+.idea/webServers.xml
+.idea/javascriptGoogleAnalytics.xml
+.idea/mavenProfiles.xml
+.idea/mavenLibraries.xml
+.idea/rubyMines
+
+# Rider special settings
+.idea/assetPacks/
+.idea/ci.xml
+.idea/httpRequests
+.idea/markdown-navigator.xml
+.idea/vcs.xml
+.idea/codestyles.xml
+.idea/httpClient.xml
+.idea/goTasks.xml
+.idea/ide.xml
+.idea/httpRequests
+.idea/httpRequests
+.idea/github.xml
+.idea/goTasks.xml
+.idea/npmPackages.xml
+.idea/tasks.xml
+
+# Rider logs
+.idea/logs/
+.idea/tasks.xml
+
+# Rider temp files
+.idea/gradle.xml
+.idea/runConfigurations
+
+# Rider workspace
+.idea/workspace.xml
+.idea/task.xml
+
+# Rider Scala Plugin
+.idea/scala_compiler_integration/
+.idea/scala_compiler_integration.xml
+
+# Rider .NET Core
+.idea/dotnetCoreLibraries.xml
+.idea/dotnetCoreLibraries
+
+# Rider Android plugin
+.idea/android
+.idea/gradle
+.idea/gradle
+
+# Rider SQL plugin
+.idea/sql
+.idea/sql
+
+# Rider database files
+.idea/databases.xml
+.idea/databases
+
+# Rider Ivy
+.idea/ivy/
+
+# Rider XML Schemas
+.idea/xmlSchemas
+.idea/xmlSchemas
+
+# Rider Checkstyle
+.idea/checkstyle
+.idea/checkstyle
+
+# Rider Checkstyle
+.idea/checkstyle
+
+# Rider Checkstyle
+.idea/checkstyle
+
+# Rider Checkstyle
+.idea/checkstyle
+
+# Rider JS/HTML
+.idea/javascriptGoogleAnalytics.xml
+.idea/javascriptGoogleAnalytics
+
+# Rider Android
+.idea/androidSettings
+
+# Rider Android SDK
+.idea/androidSdk.xml
+.idea/androidSdk
+
+# Rider Android Sync
+.idea/androidSync.xml
+.idea/androidSync
+
+# Rider Android AVDs
+.idea/avd.xml
+.idea/avd
