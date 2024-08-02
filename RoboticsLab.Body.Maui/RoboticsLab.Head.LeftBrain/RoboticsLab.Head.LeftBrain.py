@@ -14,3 +14,5 @@ def Read():
 def Write():
     print("Left Brain is writing")
     
+def Speak():
+    print("Left Brain is speaking")
