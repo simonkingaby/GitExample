@@ -38,7 +38,7 @@ Arms.Initialize()
 Legs.Initialize() 
 
 # call Torso functions
-@app.route('/api/torso/bow', methods=['GET'])
+@app.route('/api/torso/bow', methods=['POST'])
 def Bow():
     return Torso.Bow()
     
@@ -47,11 +47,13 @@ def Bow():
 @app.route('/api/arms/wigglefingers', methods=['POST'])    
 def WiggleFingers():
     Arms.WiggleFingers()
-    
+
+
 # call Leg functions
 @app.route('/api/legs/highkick', methods=['POST'])   
 def HighKick():
     Legs.HighKick()   
+
 
 if __name__ == '__main__':
     app.run(debug=True)
