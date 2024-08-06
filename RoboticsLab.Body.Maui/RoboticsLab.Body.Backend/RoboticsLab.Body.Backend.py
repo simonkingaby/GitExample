@@ -4,10 +4,15 @@ import pyodbc
 import json
 from dotenv import load_dotenv
 import os
+import sys
 
-import RoboticsLab.Body.Torso as Torso
-import RoboticsLab.Body.Arms as Arms
-import RoboticsLab.Body.Legs as Legs
+sys.path.append("../RoboticsLab.Body.Arms")
+sys.path.append("../RoboticsLab.Body.Legs")
+sys.path.append("../RoboticsLab.Body.Torso")
+
+import Torso
+import Arms
+import Legs 
 
 from flask import Flask, jsonify, request
 
@@ -30,12 +35,13 @@ connection_string = f"DRIVER={driver};SERVER={server};DATABASE={database};UID={u
 
 Torso.Initialize()
 Arms.Initialize()
-Legs.Initialize()
+Legs.Initialize() 
 
 # call Torso functions
-@app.route('/api/torso/bow', methods=['POST'])')
+@app.route('/api/torso/bow', methods=['GET'])
 def Bow():
-    Torso.Bow()
+    return Torso.Bow()
+    
     
 # call Arm functions
 @app.route('/api/arms/wigglefingers', methods=['POST'])    
@@ -43,7 +49,7 @@ def WiggleFingers():
     Arms.WiggleFingers()
     
 # call Leg functions
-@app.route('/api/legs/highkick', methods=['POST']))    
+@app.route('/api/legs/highkick', methods=['POST'])   
 def HighKick():
     Legs.HighKick()   
 

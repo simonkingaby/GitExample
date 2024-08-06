@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7339c4e9-cf4d-4503-81e4-5dbb3f86527b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>RoboticsLab.Body.Arms.py</StartupFile>
+    <StartupFile>Arms.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="RoboticsLab.Body.Arms.py" />
+    <Compile Include="Arms.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

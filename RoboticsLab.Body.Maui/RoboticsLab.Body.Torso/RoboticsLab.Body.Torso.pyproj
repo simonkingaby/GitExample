@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>99b601b0-b404-4165-bb5f-9c3feeae5a65</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>RoboticsLab.Body.Torso.py</StartupFile>
+    <StartupFile>Torso.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="RoboticsLab.Body.Torso.py" />
+    <Compile Include="Torso.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

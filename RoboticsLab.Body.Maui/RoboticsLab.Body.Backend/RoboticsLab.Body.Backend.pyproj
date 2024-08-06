@@ -12,6 +12,7 @@
     <Name>RoboticsLab.Body.Backend</Name>
     <RootNamespace>RoboticsLab.Body.Backend</RootNamespace>
     <InterpreterId>CondaEnv|CondaEnv|DataViz</InterpreterId>
+    <IsWindowsApplication>True</IsWindowsApplication>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -26,6 +27,28 @@
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="CondaEnv|CondaEnv|DataViz" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RoboticsLab.Body.Arms\RoboticsLab.Body.Arms.pyproj">
+      <Name>RoboticsLab.Body.Arms</Name>
+      <Project>{7339c4e9-cf4d-4503-81e4-5dbb3f86527b}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\RoboticsLab.Body.Legs\RoboticsLab.Body.Legs.pyproj">
+      <Name>RoboticsLab.Body.Legs</Name>
+      <Project>{967b9d91-cb97-4521-b8b6-504a8bef989f}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\RoboticsLab.Body.Torso\RoboticsLab.Body.Torso.pyproj">
+      <Name>RoboticsLab.Body.Torso</Name>
+      <Project>{99b601b0-b404-4165-bb5f-9c3feeae5a65}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\RoboticsLab.Head.LeftBrain\RoboticsLab.Head.LeftBrain.pyproj">
+      <Name>RoboticsLab.Head.LeftBrain</Name>
+      <Project>{59e17fa8-f5a0-461d-a797-dbc4d3d32453}</Project>
+      <Private>True</Private>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

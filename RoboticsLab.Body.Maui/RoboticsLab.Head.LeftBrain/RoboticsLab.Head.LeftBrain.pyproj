@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>59e17fa8-f5a0-461d-a797-dbc4d3d32453</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>RoboticsLab.Head.LeftBrain.py</StartupFile>
+    <StartupFile>LeftBrain.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="RoboticsLab.Head.LeftBrain.py" />
+    <Compile Include="LeftBrain.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

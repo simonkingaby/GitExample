@@ -353,3 +353,6 @@ $RECYCLE.BIN/
 # Rider Android AVDs
 .idea/avd.xml
 .idea/avd
+
+.csproj.user
+.sqlproj.user
